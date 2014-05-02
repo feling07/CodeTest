@@ -13,11 +13,11 @@ The calculator displays three selections (the prices or odds) for a football gam
 
 Selection Name Id Fractional Value Decimal Value
 
-**Norwich City to Win 1 15/2 7.5 **
+**Norwich City to Win 1 15/2 7.5**
 
-**Draw 2 9/2 4.5 **
+**Draw 2 9/2 4.5**
 
-**Liverpool to Win 3 4/11 0.36 **
+**Liverpool to Win 3 4/11 0.36**
 
 
 
