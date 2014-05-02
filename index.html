@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="utf-8">
+  <title>Code Test</title>
+  <meta name="description" content="This file is for Coding test by Ting."/>
+
+  <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <!-- Loading CSS -->
+    <link href="css/codetest.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+</head>
+<body>
+	<div class="container">
+
+    <!-- The bet information part -->
+
+    <div id="infocontainer" class="btn btn-block btn-lg btn-inverse">
+
+			<div id="title" class="test-heading">
+				Premiership
+			</div>
+			<div class="test-subtitle">
+				Sun 20 - 12:00
+			</div>
+			<div class="game-title">
+				Norwich City v Liverpool
+			</div>
+
+    </div>
+
+    <!-- The rate selection -->
+
+      <div class="test-row">
+        <div class="btn-toobar">
+          <div class="btn-group">
+
+            <div class="col1" name="NorwichCityToWin">
+           
+              <div id="1" class="btn btn-block btn-lg btn-inverse">
+                <label class="checkbox" for="checkbox1">15/2
+                <input type="checkbox" id="mycheck1"  style="display:none;" />
+                </label>
+              </div>
+            </div>
+        
+          
+            <div class="col2" name="draw">
+              <div id="2" class="btn btn-block btn-lg btn-inverse">
+                <label class="checkbox" for="checkbox2">
+                <input type="checkbox" id="mycheck2"  style="display:none;" />9/2
+                </label>
+              </div>
+            </div>
+      
+            <div class="col3" name="LiverpoolToWin">
+              <div id="3" class="btn btn-block btn-lg btn-inverse">
+                <label class="checkbox" for="checkbox3">
+                <input type="checkbox" id="mycheck3"  style="display:none;" />11/4
+                </label>
+              </div>
+            </div>
+     
+
+          </div>
+        </div>
+      </div>
+
+     <!-- Player input and input calculation -->     
+
+			<div class="input-row">
+
+        <div class="stake-box">     
+            <div class="form-group">
+                Stake: £<input type="text" id="stake" class="form-control"/>
+            </div>          
+        </div>
+    
+
+        <div class="wins-box">
+          <div class="form-group">
+            Wins: <input type="text" id="wins" class="form-control" onchange="winMoney()"/><br>
+          </div>
+        </div>
+
+			</div>
+
+
+      <!-- Form sending with selected and calculated value -->
+
+      <div class="bet">
+          <div class="betnow">
+            Bet now
+          </div>
+      </div>
+        
+	</div> 
+ <!-- Load JS here =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/codetest.js"></script>
+</body>
+</html>
